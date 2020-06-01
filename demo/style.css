@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.opts-input {
+    font-size: 28px;
+    width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    padding: 16px 12px;
+    margin: 0 0 15px;
+    color: #373737;
+    text-align: center;
+}
+
+.result {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cb {
+    flex-grow: 1;
+    width: 20px;
+    height: 400px;
+    margin-right: 1px;
+}

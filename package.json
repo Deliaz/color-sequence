@@ -1,0 +1,24 @@
+{
+  "name": "color-sequence",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Deliaz",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "amdName": "colorSequence",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.0",
+    "@babel/core": "^7.10.0",
+    "@babel/preset-env": "^7.10.0",
+    "microbundle": "^0.12.0",
+    "hash-sum": "^2.0.0"
+  },
+  "dependencies": {
+  }
+}
